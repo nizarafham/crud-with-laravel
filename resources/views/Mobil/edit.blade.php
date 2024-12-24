@@ -1,5 +1,5 @@
 @extends('layout.template')
-<!-- START FORM -->
+
 @section('konten')
 
 <form action='{{ url('Mobil/'.$data->nama) }}' method='post'>
@@ -31,5 +31,5 @@
     </div>
 </div>
 </form>
-<!-- AKHIR FORM -->
+
 @endsection
